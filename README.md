@@ -39,7 +39,7 @@
 -   ### 示例用法:
 
     ```
-    http://127.0.0.1:5000/universalconverter?CFG=Clash.ini&URL=%SubcribeURL%
+    http://127.0.0.1:5000/universalconverter?NAME=UniversalConvert&CFG=Clash.ini&URL=%SubcribeURL%&ProxyRuleNoResolve=true
     ```
     **💡 各个调用参数之间使用 `&` 符号进行连接**
 -   ### 调用参数(NAME)
@@ -177,6 +177,14 @@
         ```
         ProxyRuleNoResolve=true
         ```
+    -   **ProxyRuleSkipIPASN (bool)**
+        -   `true`:在转换目标为Clash类订阅时注释掉所有的IP-ASN规则，这会展开引用的本地.list文件进行处理。
+        -   `fasle`:不对代理规则进行任何处理
+        -   `不写或空值`:不对代理规则进行任何处理
+        ```
+        ProxyRuleSkipIPASN=true
+        ```
+
 
 ## 📄 转换配置文件
 **转换配置文件`XXX.ini`，用于配置转换的详细过程和参数**
@@ -423,4 +431,4 @@
             ```
             (>=2.0)&(REGEX:Xig/IS4q5Yip5LqaKS4qKPCfh6/wn4e1fEpQfEphcGFufOaXpeacrHzml6Up)
             ```            
-<!-- 更新时间: Sun Dec  7 07:57:59 UTC 2025 -->
+<!-- 更新时间: Mon Mar 30 12:08:06 UTC 2026 -->
