@@ -13,7 +13,7 @@
 | Clash Verge For Windows|   Windows     |Clash.ini|
 | Clash Verge For MAC    |     Mac       |Clash.ini|
 | Clash Meta For Android |   Android     |Clash.ini|
-| Stash                  |     IOS       |Stash.ini|
+| Stash                  |     IOS       |Clash.ini|
 | OpenClash              |   OpenWrt     |Clash.ini|
 | SingBox                |     Any       |SingBox.ini|
 
@@ -431,4 +431,4 @@
             ```
             (>=2.0)&(REGEX:Xig/IS4q5Yip5LqaKS4qKPCfh6/wn4e1fEpQfEphcGFufOaXpeacrHzml6Up)
             ```            
-<!-- 更新时间: Thu Jul  2 12:17:11 UTC 2026 -->
+<!-- 更新时间: Thu Jul  2 12:51:05 UTC 2026 -->
